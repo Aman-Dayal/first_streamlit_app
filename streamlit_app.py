@@ -67,7 +67,7 @@ except URLError as e:
 
 # my_cur = my_cnx.cursor()
 # my_cur.execute("")
-my_data_row = my_cur.fetchall()
+# my_data_row = my_cur.fetchall()
 streamlit.header("The fruit Load list contains:")
 
 def get_fruit_load_list():
